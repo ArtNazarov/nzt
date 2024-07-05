@@ -1,4 +1,4 @@
-TypeScript testing library 
+TypeScript testing library
 ===
 
 See sampleTests.ts
@@ -13,6 +13,7 @@ Author: Nazarov A.A. 2024
 Installation
 ===
 1) Install via NPM `npm install nzt-ts --save`
-2) Import test engine `import NZT from 'nzt-ts'`
+2) Import test engine `import { NZT, createTestEngine } from 'nzt-ts'`
 
+[Project at GitHub](https://github.com/ArtNazarov/nzt/)
 [Project at NPM](https://www.npmjs.com/package/nzt-ts)
