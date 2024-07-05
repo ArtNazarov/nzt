@@ -17,3 +17,4 @@ Installation
 
 [Project at GitHub](https://github.com/ArtNazarov/nzt/)
 [Project at NPM](https://www.npmjs.com/package/nzt-ts)
+[Sandbox](https://replit.com/@artnazarov/demo-nzt-ts?v=1)
