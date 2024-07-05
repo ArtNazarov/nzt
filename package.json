@@ -1,9 +1,12 @@
 {
   "name": "nzt-ts",
-  "version": "1.0.7",
+  "type": "module",
+  "version": "1.0.8",
   "description": "TypeScript testing library",
-  "main": "dist/index.js",
-  "scripts": {
+  "exports": {
+     ".": "./dist/index.js"
+  },
+    "scripts": {
     "build": "tsc"
   },
   "keywords": [
