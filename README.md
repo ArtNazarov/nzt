@@ -9,3 +9,5 @@ Usage
 2) Run `node sampleTests.js`
 
 Author: Nazarov A.A. 2024
+
+[Project at NPM](https://www.npmjs.com/package/nzt-ts)
