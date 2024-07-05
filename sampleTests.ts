@@ -1,6 +1,6 @@
-import NZT from "./nzt";
+import { NZT, createTestEngine } from "./index";
 
-let TestSuit: NZT = new NZT("My first test suite")
+let TestSuit: NZT = createTestEngine("My first test suite")
 
 TestSuit.put(
     ()=> {

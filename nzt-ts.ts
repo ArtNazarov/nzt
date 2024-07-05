@@ -37,7 +37,7 @@ interface INZT {
     out():void
 }
 /* classes */
-class NZT implements INZT {
+export class NZT implements INZT {
     public about: string;
     public tests:  TTests;
     public report: TTestReport;
@@ -85,4 +85,6 @@ class NZT implements INZT {
         }
     }
 
-    export default NZT
+export function createTestEngine(message: string){
+    return new NZT(message)
+}

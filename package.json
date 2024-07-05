@@ -1,0 +1,22 @@
+{
+  "name": "nzt-ts",
+  "version": "1.0.7",
+  "description": "TypeScript testing library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "tdd",
+    "testing"
+  ],
+  "author": "Nazarov A.A.",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "nzt-ts": "^1.0.5"
+  }
+}
